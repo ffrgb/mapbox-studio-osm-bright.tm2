@@ -246,11 +246,13 @@
     // to those that do. See also <https://www.mapbox.com/maki/>
     marker-fill:#666;
     marker-file:url('icon/[maki]-12.svg');
+    opacity: .7;
   }
   ::label {
+    opacity: .4;
     text-name: @name;
     text-face-name: @sans_md;
-    text-size: 12;
+    text-size: 10;
     text-fill: #666;
     text-halo-fill: fadeout(#fff, 50%);
     text-halo-radius: 1;
